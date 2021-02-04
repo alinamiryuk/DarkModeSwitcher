@@ -6,3 +6,26 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 338px;
+  height: 76px;
+}
+
+.switchWrapper {
+  width: 30px;
+  height: 60px;
+}
+
+.progressbarWrapper {
+  width: 286px;
+  height: 76px;
+}
