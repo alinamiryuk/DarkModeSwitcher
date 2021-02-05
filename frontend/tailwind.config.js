@@ -24,6 +24,21 @@ module.exports = {
         sm: '8px',
         lg: '16px',
       },
+      boxShadow: {
+        small: '0px 2px 4px rgba(57, 61, 69, 0.06)',
+      },
+      margin: {
+        '22px': '22px',
+      },
+      width: {
+        '30px': '30px',
+        '286px': '286px',
+        '338px': '338px',
+      },
+      height: {
+        '60px': '60px',
+        '76px': '76px',
+      },
     },
   },
   variants: {
