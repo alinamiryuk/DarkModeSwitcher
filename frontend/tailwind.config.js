@@ -30,6 +30,9 @@ module.exports = {
       margin: {
         '22px': '22px',
       },
+      padding: {
+        '8px': '8px',
+      },
       width: {
         '30px': '30px',
         '286px': '286px',
@@ -39,6 +42,14 @@ module.exports = {
         '60px': '60px',
         '76px': '76px',
       },
+      backgroundImage: {
+        sun: "url('/src/img/light.png')",
+        moon: "url('/src/img/dark.png')",
+      },
+      backgroundPosition: {
+       'bottom-dark': 'center bottom 8px',
+       'top-light': 'center top 8px',
+      }
     },
   },
   variants: {

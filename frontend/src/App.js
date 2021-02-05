@@ -14,7 +14,11 @@ export default function App() {
                 type="checkbox"
                 onClick={() => setDark((state) => !state)}
               />
-              <span class="slider absolute inset-0 delay-200 rounded-sm bg-gray-100 cursor-pointer dark:bg-true-gray-400" />
+              <span
+                class={`slider absolute inset-0 delay-200 rounded-sm bg-gray-100 bg-no-repeat cursor-pointer dark:bg-true-gray-400 ${
+                  dark ? 'bg-sun bg-top-light' : 'bg-moon  bg-bottom-dark'
+                }`}
+              />
             </label>
           </div>
           <div className="flex w-286px h-76px rounded-lg border border-solid border-cool-gray-200 bg-white dark:bg-true-gray-800 dark:border-true-gray-400"></div>
