@@ -5,10 +5,10 @@ export default function App() {
 
   return (
     <div className={`min-w-full md:h-screen ${dark ? 'dark' : ''}`}>
-      <div className="container bg-true-gray-400 dark:bg-true-gray-900 min-w-full md:h-screen">
-        <div className="contentWrapper bg-white dark:bg-true-gray-800">
+      <div className="flex justify-center items-center bg-white dark:bg-true-gray-900 min-w-full md:h-screen">
+        <div className="contentWrapper flex justify-between items-center rounded-lg border border-solid border-cool-gray-200 bg-white dark:bg-true-gray-800 dark:border-true-gray-400">
           <div
-            className="switchWrapper"
+            className="switchWrapper rounded-sm"
             onClick={() => setDark((state) => !state)}
           ></div>
           <div className="progressbarWrapper"></div>

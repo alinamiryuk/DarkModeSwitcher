@@ -4,11 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        white: '#ffffff',
         gray: {
           100: '#f4f4f5',
         },
         'true-gray': {
-          400: '#e5e5e5',
+          400: '#a3a3a3',
           800: '#262626',
           900: '#171717',
         },
@@ -18,6 +19,10 @@ module.exports = {
         blue: {
           600: '#2563eb',
         },
+      },
+      borderRadius: {
+        sm: '8px',
+        lg: '16px',
       },
     },
   },

@@ -7,17 +7,10 @@
   box-sizing: border-box;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .contentWrapper {
-  display: flex;
-  justify-content: space-between;
-  width: 338px;
+  min-width: 338px;
   height: 76px;
+  margin-right: 22px;
 }
 
 .switchWrapper {
