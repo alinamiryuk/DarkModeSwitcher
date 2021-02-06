@@ -1,5 +1,4 @@
 # DarkModeSwitcher
-A passenger's order form like on RZD website. 
 
 ## Stack
 React, Tailwind CSS, CSS
