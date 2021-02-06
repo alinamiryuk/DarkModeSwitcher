@@ -3,6 +3,9 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      spacing: {
+        px: '1px',
+      },
       colors: {
         white: '#ffffff',
         gray: {
@@ -35,10 +38,14 @@ module.exports = {
       },
       width: {
         '30px': '30px',
+        '62px': '62px',
+        '140px': '140px',
         '286px': '286px',
         '338px': '338px',
       },
       height: {
+        '2px': '2px',
+        '36px': '36px',
         '60px': '60px',
         '76px': '76px',
       },
@@ -47,9 +54,12 @@ module.exports = {
         moon: "url('/src/img/dark.png')",
       },
       backgroundPosition: {
-       'bottom-dark': 'center bottom 8px',
-       'top-light': 'center top 8px',
-      }
+        'bottom-dark': 'center bottom 8px',
+        'top-light': 'center top 8px',
+      },
+      fontSize: {
+        '12px': '12px',
+      },
     },
   },
   variants: {
