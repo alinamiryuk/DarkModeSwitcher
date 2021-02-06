@@ -1,15 +1,14 @@
 import { useState } from 'react'
 
 const valueChecker = (target) => {
-  let result
   if (target > 100) {
-    result = 100
+    return 100
   } else if (target < 0) {
-    result = 0
-  } else {
-    result = target
-  }
-  return result
+    return 0
+  } else if (target.indexOf('.') !== '-1') {
+    return target.substring(0, target.indexOf('.') + 3)                                                        //т.е. если 4, то максимум 3 цифры после запятой
+  } 
+    return target
 }
 
 export default function App() {
